@@ -23,4 +23,8 @@
   react: {}
   nuclide:
     remoteProjectsConfig: []
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "linter-jscs":
+    preset: "google"
+    displayAs: "warning"
